@@ -4,7 +4,7 @@ describe('employees', function() {
       for (const key in employee) {
         delete employee[key];
       }
-
+      
       employee.name = 'Sam';
     });
 
